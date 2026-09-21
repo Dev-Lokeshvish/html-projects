@@ -1,0 +1,17 @@
+#container{
+    height: 50px;
+    width: 900px;
+    border: 2px solid #5BB8F5;
+    border-radius: 5px;
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#container div{
+    font-size: 24px;
+    height: 24px;
+    width: 80px;
+    margin-left: 10px;
+    line-height: 20px;
+}
