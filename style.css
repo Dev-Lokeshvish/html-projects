@@ -1,0 +1,38 @@
+h2{
+    color: rgb(239, 177, 63);
+}
+
+h1 span{
+    color: rgb(188, 88, 88);
+}
+#pet{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    min-height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex-block;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    /* overflow-y: auto; */
+}
+img{
+    height:10em;
+    width: 100%;
+    border-radius: 25px;
+}
+@media (max-width:375px) {
+    #pet{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:400px){
+    h2,h1{
+        text-align: center;
+    }
+}
