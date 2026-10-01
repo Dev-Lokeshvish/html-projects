@@ -1,0 +1,88 @@
+/* google fonts -poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    background-color: #ADD8E6;
+}
+.container{
+    height: 300px;
+    width: 500px;
+    background-image: url("images/bg.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top:120px;
+    left: 30%;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 2px solid wheat;
+    display: flex;
+    
+}
+.container .chipdata{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 83%;
+    z-index: 1;
+    background: none;
+    
+}
+.chipdata img{
+    border-radius: 10px;
+}
+.logodata .logo{
+    height: 50px;
+    position:absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    background: none;
+}
+.container .name span{
+    position: absolute;
+    z-index: 3;
+    left: 95px;
+    top: 15px;
+    background: none;
+    color: #ADD8E6;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.container .cn{
+        height: 200px;
+        padding: 12px;
+        position:absolute;
+        top: 40%;
+        left: 15px;
+        z-index: 2;
+        background: none;
+        color: #ADD8E6;
+}
+.cn span{
+    background: none;
+    font-size:25px;
+}
+.myname {
+    background: none;
+    color: #ADD8E6;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    font-size: 25px;
+}
+.valid{
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    background: none
+}
+.valid span{
+    background: none;
+    color: #ADD8E6;
+}
