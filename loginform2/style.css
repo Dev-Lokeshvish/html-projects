@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("naturaltree.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(219, 229, 238,0.2);
+    height: 400px;
+    width: 500px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+.user{
+    border: 2px solid rgba(238, 240, 242, 0.2);
+    outline: none;
+    background: none;
+    border-radius: 1rem;
+    margin: 10px;
+    height: 35px;
+    width: 300px;
+    padding: 10px;
+}
+.user::placeholder{
+    color: #fff;
+}
+.input-box{
+    position: relative;
+}
+.input-box .face{
+    color: #fff;
+    position: absolute;
+    left: 85%;
+    top: 1.2rem;
+    font-size: 1rem;
+}
+.input-box .lock{
+    color: #fff;
+    position: absolute;
+    left: 85%;
+    top: 1.2rem;
+    font-size: 1rem;
+}
+.detail{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.detail a{
+    color: #fff;
+    text-decoration: none;
+}
+.detail a:hover{
+    text-decoration: underline;
+}
+.chek-box label{
+    color: #fff;
+}
+.button{
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 1rem;
+    margin: 10px;
+}
+.about{
+    margin: 10px;
+}
+.container span{
+    color: #fff;
+}
+span a{
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+}
